@@ -70,7 +70,7 @@
 
 ## 1. Uncommitted Read
 
-<img src="../images/uncommitted-read.png" width="50%" alt="uncommitted-read">
+<img src="./images/uncommitted-read.png" width="50%" alt="uncommitted-read">
 
 **시나리오**:
 
@@ -83,7 +83,7 @@
 
 ## 2. Committed Read
 
-<img src="../images/read-committed.png" width="50%" alt="read-committed">
+<img src="./images/read-committed.png" width="50%" alt="read-committed">
 
 **시나리오**:
 
@@ -95,7 +95,7 @@
 
 ## 3. Repeatable Read
 
-<img src="../images/repeatable-read.png" width="50%" alt="repeatable-read">
+<img src="./images/repeatable-read.png" width="50%" alt="repeatable-read">
 
 **시나리오** (사용자 A = Transaction 12, 사용자 B = Transaction 10):
 
@@ -118,7 +118,7 @@
 -   일반적인 조회에서는 언두 로그를 통해 일관성을 유지하지만, 특정 상황(SELECT FOR UPDATE와 같은 잠금 읽기)에서는 언두 로그가 아닌 실제 테이블 데이터를 읽게 된다.
 -   이 경우 다른 트랜잭션에 의해 추가된 레코드가 조회될 수 있다.
 
-<img src="../images/phantom-read.png" width="50%" alt="phantom-read">
+<img src="./images/phantom-read.png" width="50%" alt="phantom-read">
 
 **Phantom Read 시나리오**:
 

@@ -1,0 +1,17 @@
+{
+  "name": "wooo-log",
+  "version": "1.0.0",
+  "description": "Study log repository",
+  "scripts": {
+    "dev": "ts-node",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
